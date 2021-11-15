@@ -55,7 +55,7 @@ a:hover {
 
 .titulo-1 {
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-size: 25px;
 }
 
@@ -368,6 +368,10 @@ ul.list-circle li::before {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .titulo-1 {
+        letter-spacing: 0.2em;
+    }
+
     .intro-img {
         flex-grow: 1;
     }
